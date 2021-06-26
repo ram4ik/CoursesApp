@@ -52,11 +52,11 @@
 		1D2F810C2687377600AAFAA6 /* CoursesApp */ = {
 			isa = PBXGroup;
 			children = (
-				1D2F810D2687377600AAFAA6 /* CoursesAppApp.swift */,
-				1D2F810F2687377600AAFAA6 /* ContentView.swift */,
-				1D2F81112687377A00AAFAA6 /* Assets.xcassets */,
-				1D2F81162687377A00AAFAA6 /* Info.plist */,
-				1D2F81132687377A00AAFAA6 /* Preview Content */,
+				1D2F8120268737E400AAFAA6 /* ViewModels */,
+				1D2F811F268737D500AAFAA6 /* Models */,
+				1D2F811E268737C400AAFAA6 /* Views */,
+				1D2F811D2687379F00AAFAA6 /* Shared */,
+				1D2F811C2687378C00AAFAA6 /* App */,
 			);
 			path = CoursesApp;
 			sourceTree = "<group>";
@@ -67,6 +67,46 @@
 				1D2F81142687377A00AAFAA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D2F811C2687378C00AAFAA6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1D2F810D2687377600AAFAA6 /* CoursesAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1D2F811D2687379F00AAFAA6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1D2F81162687377A00AAFAA6 /* Info.plist */,
+				1D2F81112687377A00AAFAA6 /* Assets.xcassets */,
+				1D2F81132687377A00AAFAA6 /* Preview Content */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1D2F811E268737C400AAFAA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D2F810F2687377600AAFAA6 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D2F811F268737D500AAFAA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D2F8120268737E400AAFAA6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,10 +308,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoursesApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoursesApp/Shared/Preview Content\"";
 				DEVELOPMENT_TEAM = L8W86DZDY2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CoursesApp/Info.plist;
+				INFOPLIST_FILE = CoursesApp/Shared/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +330,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoursesApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoursesApp/Shared/Preview Content\"";
 				DEVELOPMENT_TEAM = L8W86DZDY2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CoursesApp/Info.plist;
+				INFOPLIST_FILE = CoursesApp/Shared/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
