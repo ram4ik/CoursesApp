@@ -64,7 +64,7 @@ struct Home: View {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 150))]) {
                     ForEach(allTopics.filter { searchText.isEmpty ? true : $0.rawValue.lowercased().contains(searchText.lowercased())}, id: \.self) { topic in
                         NavigationLink (
-                            destination: Text("\(topic.rawValue)"),
+                            destination: DetailView(topic: topic),
                             label: {
                                 RoundedRectangle(cornerRadius: 25.0)
                                     .fill(topic.backColor().opacity(0.7))
