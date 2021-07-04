@@ -21,7 +21,7 @@ struct DetailView: View {
         VStack {
             List(viewModel.course(by: topic)) { course in
                 NavigationLink(
-                    destination: Text(course.courseName),
+                    destination: CourseView(course: course),
                     label: {
                         HStack {
                             Image(course.courseImage)
