@@ -78,7 +78,7 @@ struct CourseView: View {
                         }
                     }
                 }.sheet(isPresented: $videoPlayerPresented) {
-                    
+                    VideoView(videoName: viewModel.selectedLesson.video, title: viewModel.selectedLesson.name)
                 }
             }
         }.padding()
